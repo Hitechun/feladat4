@@ -1,0 +1,49 @@
+body{
+    background-image: url('hatter.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #504033;
+    font-family: 'Lucia Console', 'Monaco', monospace;
+    font-size: large;
+    margin-right: 250px;
+    margin-left: 250px;
+    line-height: 1,5px;
+    background-size: cover;
+}
+.keret{
+    background-color: white;
+    opacity: 80%;
+    padding: 15px;
+}
+h1, h2{
+    font-size: xx-large;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    text-indent: 25px;
+}
+#emlek{
+    width: 180px;
+    margin-right: 15px;
+    border: 15px solid #504033;
+    border-style: outset;
+    float: left;
+}
+.paprika{
+    height: 300px;
+    float: left;
+}
+ul{
+    font-style: italic;
+    list-style-image: url('dot.png');
+}
+hr{
+    border: 5px solid;
+    width: 90%;
+    color: #504033;
+    box-shadow: #000000;
+    transform: translateY(2px);
+    transform: translateX(2px);
+}
